@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Background">#161616</color>
+    <color name="Menu">#1B1B1B</color>
+    <color name="Header">#161616</color>
+    <color name="Filtros">#222222</color>
+    <color name="Marcas">#FF0000</color>
+    <color name="Nombre">#FFFFFF</color>
+    <color name="BotonesHome">#363636</color>
+    <color name="ViewCard">#242424</color>
+    <color name="Icons">#FFFFFF</color>
+
+
+</resources>
