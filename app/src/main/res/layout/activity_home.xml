@@ -1,6 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_home">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Header fijo -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/Header">
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/menu"
+            android:layout_margin="20dp"
+
+            />
+
+        <ImageView
+
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logowhite"
+            android:layout_margin="10dp"
+            />
+
+
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/notificaciones"
+            android:layout_margin="20dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!-- Contenedor de fragmentos -->
+    <FrameLayout
+        android:id="@+id/nav_host_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/header"
+        android:layout_above="@id/navigation"
+        android:layout_weight="1"
+        android:background="@color/Background"/>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Menu fijo -->
+
+    <LinearLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/Menu"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/icon_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/home"
+            android:layout_margin="20dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/icon_favoritos"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/favorite"
+            android:layout_margin="20dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/icon_promociones"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/lightmode"
+            android:layout_margin="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/icon_carrito"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/cart"
+            android:layout_margin="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/icon_perfil"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/user"
+            android:layout_margin="20dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
