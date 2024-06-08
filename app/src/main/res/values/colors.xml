@@ -10,6 +10,10 @@
     <color name="BotonesHome">#363636</color>
     <color name="ViewCard">#242424</color>
     <color name="Icons">#FFFFFF</color>
+    <color name="cuadroLogin">#606060</color>
+    <color name="entradasTexto">#A9EDEDED</color>
+    <color name="anaranjado">#FF9800</color>
+    <color name="negro">#000000</color>
 
 
 </resources>

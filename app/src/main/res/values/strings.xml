@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BigData</string>
+    <string name="iniciar_sesion">INICIAR SESIÓN</string>
 </resources>
