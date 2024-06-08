@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/vector_home"
+        android:title="Home"
+        android:id="@+id/home"/>
+
+    <item
+        android:title="Favorite"
+        android:icon="@drawable/vector_favorite"
+        android:id="@+id/favorite"/>
+
+    <item
+        android:title="Discount"
+        android:icon="@drawable/vector_discount"
+        android:id="@+id/discount"/>
+
+
+    <item
+        android:title="Cart"
+        android:icon="@drawable/vector_cart"
+        android:id="@+id/cart"/>
+
+    <item
+        android:title="Account"
+        android:icon="@drawable/vector_account"
+        android:id="@+id/account"/>
+
+</menu>
